@@ -113,4 +113,3 @@ cat "$SERVER_CERT" "$CA_CERT" | sudo tee "$FULLCHAIN_CERT"
 
 echo "Server certificate created and signed by the CA. The files are stored in /certs."
 echo "Fullchain certificate available at: $FULLCHAIN_CERT"
-
